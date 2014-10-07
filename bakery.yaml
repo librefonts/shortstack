@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [ShortStack-Regular.ttf.ttx, src/ShortStack-Regular.otf.ttx, src/ShortStack-Regular.otf,
+  src/ShortStack-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
